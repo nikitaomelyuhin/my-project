@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+.header__col {
+  display: flex;
+}
+
+.header__col_align_right {
+  justify-content: flex-end;
+}

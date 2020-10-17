@@ -1,0 +1,67 @@
+html,
+body {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #303030;
+  /* для каждого проекта свой цвет текста(основной) */
+  line-height: 1.42;
+  font-weight: normal;
+}
+
+.wrapper {
+  overflow: scroll;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #001821;
+}
+
+.wrapper__content {
+  flex: 1;
+}
+
+.container {
+  /*обложка секций для центрирования*/
+  max-width: 1140px;
+  /*Надо измерить под каждый проект хедэр */
+  margin: 0 auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
